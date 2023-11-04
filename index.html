@@ -5,9 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">Beauty Zone</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@700&family=Poppins&family=Roboto+Condensed:wght@600&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+
+    <!-- Header -->
     <header>
       <nav>
         <a href="#">
@@ -38,9 +48,10 @@
           </li>
           <li>
             <a href="#">
-              <img 
-              src="./images/icons/instagram-icon.png" 
-              alt="instagram-icon" />
+              <img
+                src="./images/icons/instagram-icon.png"
+                alt="instagram-icon"
+              />
               <!-- instagram icon -->
             </a>
           </li>
@@ -57,13 +68,17 @@
         <button class="button" type="button">Замовити дзвінок</button>
         <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
       </section>
-      <section>
-        <h2 class="section-title">Перевтілюйтесь в <span class="accent" lang="en">beauty zone</span>!</h2>
+
+      <!-- Discription services section -->
+      <section id="discription-services-section">
+        <h2 class="section-title">
+          Перевтілюйтесь в <span class="accent" lang="en">beauty zone</span>!
+        </h2>
         <p>
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла.
         </p>
-        <p>
+        <p class="discription-services-text">
           B <span lang="en">beauty zone</span> ми гарантуємо найвищі стандарти
           якості та приємний сервіс. Наші косметологічні процедури та препарати
           допоможуть вам підтримувати свою красу та молодість. З нами краса
@@ -78,28 +93,35 @@
           alt="Догляд за шкірою обличчя після процедури"
         />
       </section>
-      <section>
-        <h2 class="section-title">Чому люди <span class="accent">обирають нас</span></h2>
-        <ul>
+
+      <!-- Advantages section  -->
+      <section id="advantages-section">
+        <h2 class="section-title">
+          Чому люди <span class="advantages-section-text">обирають нас</span>
+        </h2>
+        <ul class="advantages-list">
           <li>
+            <img src="./images/icons/advantages/advantages.png" alt="advantages-icon">
             <article>
-              <p>
+              <p class="advantages-item">
                 Всі наші косметологи мають вищу медичну освіту та стаж роботи
                 від 5 років
               </p>
             </article>
           </li>
           <li>
+            <img src="./images/icons/advantages/equipment.png" alt="equipment-icon">
             <article>
-              <p>
+              <p class="advantages-item">
                 Використовуємо тільки професійне обладнання та косметику,
                 перевірену часом
               </p>
             </article>
           </li>
           <li>
+            <img src="./images/icons/advantages/goal.png" alt="goal-icon">
             <article>
-              <p>
+              <p class="advantages-item">
                 Наша мета - підкреслити переваги та приховати недоліки, а не
                 переробити
               </p>
@@ -107,8 +129,12 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2 class="section-title">Наші <span class="accent">процедури</span></h2>
+
+      <!-- Services section  -->
+      <section id="services-section">
+        <h2 class="section-title">
+          Наші <span class="services-section-text">процедури</span>
+        </h2>
         <ul>
           <li>
             <article>
@@ -127,8 +153,10 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2 class="section-title">Як нас <span class="accent">знайти</span></h2>
+
+      <!-- Location section -->
+      <section id="location-section">
+        <h2 class="section-title">Як нас <span class="location-section-text">знайти</span></h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.93239004825!2d30.515605741470154!3d50.44235998806397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C7LiDQotCw0YDQsNGB0LAg0KjQtdCy0YfQtdC90LrQviwgNSwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1699027677635!5m2!1sru!2sua"
           width="605"
@@ -139,6 +167,8 @@
         ></iframe>
       </section>
     </main>
+
+    <!-- Footer -->
     <footer>
       <nav>
         <a href="#">
