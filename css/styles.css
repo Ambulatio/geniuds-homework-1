@@ -1,0 +1,52 @@
+:root {
+  --color-primary-dark: #011c44;
+  --color-primary-light: #faf4ea;
+  --color-brand: #2b7fff;
+}
+
+/* Base */
+body {
+    color: var(--color-primary-dark);
+}
+ul {
+  list-style-type: none;
+}
+
+/* Button */
+.button {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand);
+  border: 2px solid var(--color-brand);
+  border-radius: 32px;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-brand);
+  background-color: transparent;
+}
+
+/* Link */
+.link {
+  color: var(--color-primary-dark);
+}
+
+.link:hover {
+  color: var(--color-brand);
+}
+
+/* Header */
+.header-menu {
+  background-color: transparent;
+}
+
+/* Hero */
+
+.hero-title {
+  color: var(--color-brand);
+}
+
+.section-title .accent {
+  color: var(--color-brand);
+}

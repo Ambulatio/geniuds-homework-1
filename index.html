@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">Beauty Zone</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
@@ -15,23 +16,31 @@
             alt="Логотип косметологічної клініки"
           />
         </a>
-        <ul>
-          <li><a href="#">Про нас</a></li>
-          <li><a href="#">Чому ми</a></li>
-          <li><a href="#">Наші процедури</a></li>
-          <li><a href="#">Контакти</a></li>
+        <ul class="header-menu">
+          <li><a class="link" href="#">Про нас</a></li>
+          <li><a class="link" href="#">Чому ми</a></li>
+          <li><a class="link" href="#">Наші процедури</a></li>
+          <li><a class="link" href="#">Контакти</a></li>
           <li>
             <a href="#">
+              <img
+                src="./images/icons/telephone-icon.png"
+                alt="telephone-icon"
+              />
               <!-- telephone icon -->
             </a>
           </li>
           <li>
             <a href="#">
+              <img src="./images/icons/facebook-icon.png" alt="facebook-icon" />
               <!-- facebook icon -->
             </a>
           </li>
           <li>
             <a href="#">
+              <img 
+              src="./images/icons/instagram-icon.png" 
+              alt="instagram-icon" />
               <!-- instagram icon -->
             </a>
           </li>
@@ -39,15 +48,17 @@
       </nav>
       <!-- замовити дзвінок -->
     </header>
+
+    <!-- Hero -->
     <main>
       <section>
         <p>Косметологічна клініка</p>
-        <h1 lang="en">beauty zone</h1>
-        <button type="button">Замовити дзвінок</button>
+        <h1 class="hero-title" lang="en">beauty zone</h1>
+        <button class="button" type="button">Замовити дзвінок</button>
         <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
       </section>
       <section>
-        <h2>Перевтілюйтесь в <span lang="en">beauty zone</span>!</h2>
+        <h2 class="section-title">Перевтілюйтесь в <span class="accent" lang="en">beauty zone</span>!</h2>
         <p>
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла.
@@ -68,7 +79,7 @@
         />
       </section>
       <section>
-        <h2>Чому люди обирають нас</h2>
+        <h2 class="section-title">Чому люди <span class="accent">обирають нас</span></h2>
         <ul>
           <li>
             <article>
@@ -97,7 +108,7 @@
         </ul>
       </section>
       <section>
-        <h2>Наші процедури</h2>
+        <h2 class="section-title">Наші <span class="accent">процедури</span></h2>
         <ul>
           <li>
             <article>
@@ -117,7 +128,7 @@
         </ul>
       </section>
       <section>
-        <h2>Як нас знайти</h2>
+        <h2 class="section-title">Як нас <span class="accent">знайти</span></h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.93239004825!2d30.515605741470154!3d50.44235998806397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C7LiDQotCw0YDQsNGB0LAg0KjQtdCy0YfQtdC90LrQviwgNSwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1699027677635!5m2!1sru!2sua"
           width="605"
