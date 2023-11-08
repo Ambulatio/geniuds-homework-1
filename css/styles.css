@@ -43,12 +43,12 @@ ul {
   font-weight: 700;
 }
 
-/* Header */
+/* Header Styles */
 .header-menu {
   background-color: transparent;
 }
 
-/* Hero */
+/* 1 Hero Styles */
 .hero-title {
   color: var(--color-brand);
   text-align: left;
@@ -71,24 +71,24 @@ ul {
   text-transform: capitalize;
 }
 
-/* Discription services */
+/* 2 Discription Services */
 .discription-services-text span {
   color: var(--color-primary-dark);
   text-transform: capitalize;
   font-weight: 600;
 }
 
-/* Advantages section */
+/* 3 Advantages Section */
 .advantages-section-text {
   color: var(--color-brand);
 }
 
-/* Services section */
+/* 4 Services Section */
 .services-section-text {
   color: var(--color-brand);
 }
 
-/* Location section */
+/* 5 Location Section */
 .location-section-text {
   color: var(--color-brand);
 }
